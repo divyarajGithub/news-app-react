@@ -1,0 +1,29 @@
+.container {
+    border-radius: 7px;
+    display: flex;
+    padding: 0;
+    background-color: #e0dfdf;
+    width: 900px;
+    margin: 15px auto 15px;
+}
+
+
+.newsSection {
+    margin-left: 4px;
+    font-style: bold;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.shadowEffect {
+
+    -webkit-box-shadow: 0 10px 6px -6px #777;
+    -moz-box-shadow: 0 10px 6px -6px #777;
+    box-shadow: 0 10px 6px -6px #777;
+
+
+}
+.imageStyle{
+    height : 12rem;
+    width: 450px;
+    display: block;
+}
