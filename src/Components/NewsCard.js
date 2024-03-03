@@ -7,7 +7,6 @@ function NewsCard() {
     useEffect(() => {
         axios.get(" https://inshorts.deta.dev/news?category=all")
             .then((res) => {
-                console.log(res.data.data)
                 SetData(res.data.data)
             })
     }, [data])
