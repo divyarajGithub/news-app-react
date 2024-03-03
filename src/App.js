@@ -3,12 +3,7 @@ import Navbar from './Components/Navbar';
 import { BrowserRouter } from 'react-router-dom'
 import { Routes, Route } from 'react-router-dom';
 import Home from './Components/Catogories/Home';
-// import General from './Components/Catogories/General';
-// import Science from './Components/Catogories/Science';
-// import Technology from './Components/Catogories/Technology';
-// import Entertainment from './Components/Catogories/Entertainment';
-// import Health from './Components/Catogories/Health';
-// import Sports from './Components/Catogories/Sports';
+
 import FetchData from './Components/Catogories/FetchData';
 
 function App() {

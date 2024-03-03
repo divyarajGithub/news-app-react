@@ -2,7 +2,6 @@ import axios from 'axios';
 import React, { useEffect, useState } from 'react'
 
 function FetchData({ cat }) {
-    console.log(cat)
     const [data, SetData] = useState([]);
     useEffect(() => {
         axios.get(`https://inshorts.deta.dev/news?category=${cat}`)
